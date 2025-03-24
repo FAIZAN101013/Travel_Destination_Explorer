@@ -108,6 +108,28 @@ const DestinationDetail = () => {
 
             <p className="text-xl text-gray-600 mb-6">{destination.location}</p>
 
+            {/* Additional Details */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+              <div className="bg-blue-50 p-4 rounded-lg shadow">
+                <h3 className="font-semibold text-gray-900 mb-2">Duration</h3>
+                <p className="text-gray-700">{destination.duration || "Not specified"}</p>
+              </div>
+
+              <div className="bg-blue-50 p-4 rounded-lg shadow">
+                <h3 className="font-semibold text-gray-900 mb-2">Best Season</h3>
+                <p className="text-gray-700">{destination.bestSeason || "Year-round"}</p>
+              </div>
+
+              <div className="bg-blue-50 p-4 rounded-lg shadow">
+                <h3 className="font-semibold text-gray-900 mb-2">Elevation</h3>
+                <p className="text-gray-700">{destination.elevation || "Not specified"}</p>
+              </div>
+            </div>
+
+            <h2 className="text-2xl font-bold text-gray-900 mb-4">About This Trek</h2>
+            <p className="text-gray-700 mb-8 whitespace-pre-line">{destination.description}</p>
+
+            {/* Booking Plans */}
             <h2 className="text-2xl font-bold text-gray-900 mb-4">Booking Plans</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
               <div className="bg-green-50 p-4 rounded-lg shadow">
@@ -126,7 +148,7 @@ const DestinationDetail = () => {
               </div>
             </div>
 
-            {/* Buy Now Button (Not Removed) */}
+            {/* Buy Now Button */}
             <div className="text-center mt-6">
               <button
                 className="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300"
@@ -135,6 +157,17 @@ const DestinationDetail = () => {
               </button>
             </div>
 
+            {/* Stay Details */}
+            <h2 className="text-2xl font-bold text-gray-900 mb-4 mt-8">Stay Details</h2>
+            <p className="text-gray-700 mb-6">
+              Accommodation includes cozy mountain huts and guesthouses with stunning views.
+              Premium plans offer private cabins with modern amenities.
+            </p>
+            <ul className="list-disc list-inside text-gray-600">
+              <li>Shared dormitories with basic facilities</li>
+              <li>Private rooms available with premium plans</li>
+              <li>Meals included: breakfast, lunch, and dinner</li>
+            </ul>
           </div>
         </div>
       </div>
