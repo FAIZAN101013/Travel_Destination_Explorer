@@ -148,6 +148,126 @@ export const destinations = [
       "Immerse in the timeless beauty of the Great Wall"
     ],
     image: "https://images.unsplash.com/photo-1586503503007-6778eab87fd0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+    },
+  {
+    id: 11,
+    name: "Valley of Flowers",
+    location: "Uttarakhand, India",
+    difficulty: "Easy",
+    bestSeason: "July-September",
+    description: "A UNESCO World Heritage Site, this stunning valley is home to diverse flora and breathtaking landscapes.",
+    highlights: [
+      "Walk through vibrant meadows of alpine flowers",
+      "View snow-capped Himalayan peaks",
+      "Spot rare wildlife like the snow leopard and blue sheep",
+      "Visit the sacred Hemkund Sahib Gurudwara"
+    ],
+    image: "https://images.unsplash.com/photo-1599474159513-1081f4ef28a4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 12,
+    name: "Roopkund Trek",
+    location: "Uttarakhand, India",
+    difficulty: "Hard",
+    bestSeason: "May-June, September-October",
+    description: "A high-altitude glacial lake trek, famous for its mysterious skeletal remains and stunning landscapes.",
+    highlights: [
+      "Hike to the mysterious Skeleton Lake",
+      "Experience the beauty of alpine meadows (Bugyals)",
+      "Panoramic views of Trishul and Nanda Ghunti peaks",
+      "Thrilling snow trekking experience"
+    ],
+    image: "https://images.unsplash.com/photo-1606017674757-16f8f401df98?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 13,
+    name: "Hampta Pass Trek",
+    location: "Himachal Pradesh, India",
+    difficulty: "Moderate",
+    bestSeason: "June-September",
+    description: "A breathtaking crossover trek connecting lush Kullu Valley with the barren Spiti Valley.",
+    highlights: [
+      "Cross the thrilling Hampta Pass at 4,270m",
+      "See contrasting landscapes of green valleys and dry deserts",
+      "Explore the remote Spiti region",
+      "Visit Chandratal Lake, a high-altitude beauty"
+    ],
+    image: "https://images.unsplash.com/photo-1596492609255-7be1a7f0b6eb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 14,
+    name: "Kedarkantha Trek",
+    location: "Uttarakhand, India",
+    difficulty: "Moderate",
+    bestSeason: "December-April",
+    description: "A perfect winter trek offering stunning snow-clad peaks and mesmerizing sunrise views.",
+    highlights: [
+      "Summit climb to 12,500 feet",
+      "Spectacular sunrise over the Himalayas",
+      "Camp in beautiful pine forests",
+      "Best winter trek for beginners"
+    ],
+    image: "https://images.unsplash.com/photo-1606016928423-44c8651800fd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 15,
+    name: "Chadar Trek",
+    location: "Ladakh, India",
+    difficulty: "Hard",
+    bestSeason: "January-February",
+    description: "A frozen river trek over the icy Zanskar River, offering one of the most unique trekking experiences in the world.",
+    highlights: [
+      "Walk on the frozen Zanskar River",
+      "Experience sub-zero temperatures",
+      "See stunning frozen waterfalls",
+      "Engage with local Ladakhi culture"
+    ],
+    image: "https://images.unsplash.com/photo-1547036967-23d11aacaee0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 16,
+    name: "Sandakphu Trek",
+    location: "West Bengal, India",
+    difficulty: "Moderate",
+    bestSeason: "April-May, October-December",
+    description: "A trek to the highest point in West Bengal, offering views of four of the world's highest peaks: Everest, Kanchenjunga, Lhotse, and Makalu.",
+    highlights: [
+      "Panoramic views of the Sleeping Buddha range",
+      "Explore Indo-Nepal border villages",
+      "Walk through beautiful rhododendron forests",
+      "Stunning sunrise views from Sandakphu"
+    ],
+    image: "https://images.unsplash.com/photo-1601916119571-d32784147d93?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 17,
+    name: "Rajmachi Fort Trek",
+    location: "Maharashtra, India",
+    difficulty: "Easy",
+    bestSeason: "June-September",
+    description: "A monsoon trek offering stunning green landscapes and historical forts.",
+    highlights: [
+      "Explore twin forts - Shrivardhan and Manaranjan",
+      "Scenic waterfalls and lush greenery",
+      "Camping at Udhewadi village",
+      "Easy trek suitable for beginners"
+    ],
+    image: "https://images.unsplash.com/photo-1624529908359-e9e173906b7c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+  },
+  {
+    id: 18,
+    name: "Tarsar Marsar Trek",
+    location: "Kashmir, India",
+    difficulty: "Moderate",
+    bestSeason: "June-September",
+    description: "A mesmerizing trek in the heart of Kashmir, passing through alpine meadows and stunning lakes.",
+    highlights: [
+      "Visit twin alpine lakes - Tarsar & Marsar",
+      "Walk through lush green meadows",
+      "Snow-covered peaks and pristine blue lakes",
+      "Experience Kashmiri culture and hospitality"
+    ],
+    image: "https://images.unsplash.com/photo-1590584802230-0066c82f8f32?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
   }
-
 ];
+
