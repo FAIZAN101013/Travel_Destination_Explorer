@@ -5,7 +5,10 @@ const HeroSection = () => {
   return (
     <section 
       className="relative h-screen md:h-96 lg:h-[500px] bg-cover bg-center bg-no-repeat overflow-hidden"
-      style={{ backgroundImage: "url('https://source.unsplash.com/random/1600x900?travel')" }}
+      style={{
+  backgroundImage: "url('https://picsum.photos/1600/900?random')"
+}}
+
     >
       {/* Overlay gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-black/70 to-black/30"></div>
